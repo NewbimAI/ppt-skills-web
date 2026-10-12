@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PPT Skills 图鉴 · many-ppt-skills 可视化</title>
+<meta name="description" content="227 个 AI 幻灯片 Skill 的可视化登记册：评分、风格样图、筛选与搜索、安装方式与 Agent 使用指南。">
+<script>
+/* 首屏前定主题，避免闪白 */
+(function () {
+  try {
+    var t = localStorage.getItem('pptskills-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%235e6ad2'/%3E%3Ctext x='16' y='22' font-size='17' font-family='sans-serif' font-weight='700' fill='white' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<div class="bg-deco" aria-hidden="true"><i class="blob b1"></i><i class="blob b2"></i><i class="grid"></i></div>
+
+<header class="topbar">
+  <div class="tb-inner">
+    <a class="brand" href="#home" data-tab="home">
+      <span class="logo" aria-hidden="true">◱</span>
+      <span class="brand-name">PPT Skills<em>图鉴</em></span>
+    </a>
+    <nav class="nav tabs" id="mainNav" aria-label="主导航">
+      <a href="#home" data-tab="home" class="on">首页</a>
+      <a href="#skills" data-tab="skills">技能</a>
+      <a href="#gallery" data-tab="gallery">风格图库</a>
+    </nav>
+    <button class="search-trigger" id="searchTrigger" type="button" title="搜索（Ctrl K）">
+      <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.48a5.5 5.5 0 1 1 .7-.7l3.03 3.03a.5.5 0 0 1-.7.71l-3.03-3.04Z"/></svg>
+      <span>搜索 skill、风格 ID…</span>
+      <kbd>Ctrl K</kbd>
+    </button>
+    <button class="icon-btn" id="themeToggle" type="button" title="切换主题 (T)" aria-label="切换主题">
+      <svg class="i-sun" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M8 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm0-3a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 8 1.5Zm0 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5ZM1.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1H2a.5.5 0 0 1-.5-.5Zm12 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 0 1h-1a.5.5 0 0 1-.5-.5ZM3.4 3.4a.5.5 0 0 1 0 .7l.7.7a.5.5 0 0 1-.7.71l-.7-.7a.5.5 0 0 1 0-.71Zm8.5 8.5a.5.5 0 0 1 0 .7l-.7.7a.5.5 0 0 1-.7-.71l.7-.7a.5.5 0 0 1 .7 0Zm.7-9.2a.5.5 0 0 1 0 .71l-.7.7a.5.5 0 1 1-.7-.7l.7-.71a.5.5 0 0 1 .7 0ZM4.8 11.1a.5.5 0 0 1 0 .71l-.7.7a.5.5 0 0 1-.7-.71l.7-.7a.5.5 0 0 1 .7 0Z"/></svg>
+      <svg class="i-moon" viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M13.4 9.6A5.7 5.7 0 0 1 6.4 2.6a.4.4 0 0 0-.53-.5A6.7 6.7 0 1 0 13.9 10a.4.4 0 0 0-.5-.4Z"/></svg>
+    </button>
+    <a class="icon-btn" id="ghLink" href="https://github.com/brycewang-stanford/many-ppt-skills" target="_blank" rel="noopener" title="数据源仓库" aria-label="GitHub">
+      <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+  <div class="page active" data-page="home">
+  <!-- ─────────────── Hero ─────────────── -->
+  <section class="hero">
+    <div class="wrap">
+      <div class="badge" id="dataBadge" role="button" tabindex="0" title="点击重新同步 GitHub 最新数据">
+        <span class="dot" id="badgeDot"></span><span id="badgeText">数据源 many-ppt-skills 登记册 · 刷新于 <b id="badgeRefresh">—</b></span>
+      </div>
+      <h1><span id="heroTotal">227</span> 个 PPT Skill，<br>一页挑对你的那个。</h1>
+      <p class="lede" id="heroLede">收录 227 个 AI 幻灯片 skill，其中 39 个人工读过 SKILL.md；按真正决定选择的点对比 —— 输出路线、能力、许可、风格样图，全部是可核对的事实。</p>
+
+      <div class="stats" id="heroStats"></div>
+
+      <div class="route-pills" id="heroRoutes" title="点击直接筛选"></div>
+
+      <div class="hero-cta">
+        <button class="btn primary" id="ctaSearch" type="button">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.48a5.5 5.5 0 1 1 .7-.7l3.03 3.03a.5.5 0 0 1-.7.71l-3.03-3.04Z"/></svg>
+          搜索 / 按风格 ID 找
+          <kbd>Ctrl K</kbd>
+        </button>
+        <a class="btn" href="#route">先回答路线问题 ↓</a>
+        <a class="btn ghost" href="#guide">怎么装、怎么在 Agent 里用</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── 路线问题 ─────────────── -->
+  <section class="section" id="route">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">唯一重要的决策</span>
+        <h2>有人需要用 PowerPoint 打开你的交付物并编辑它吗？</h2>
+        <p>这和审美无关 —— 先定路线，再谈风格。</p>
+      </div>
+
+      <div class="route-cmp" id="routeCmp"></div>
+
+      <div class="tree-box">
+        <div class="tree-head">完整决策树 <span>按场景点名 skill</span></div>
+        <pre class="tree" id="decisionTree"></pre>
+      </div>
+
+      <div class="route-note">
+        <b>不需要 → 走 HTML。</b>设计天花板高得多，零依赖单文件十年后照样能打开。
+        <b>需要 → 走 PPTX。</b>如果财务总监改不了第 12 页，其他都白搭。
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── 精选（首页） ─────────────── -->
+  <section class="section" id="featured">
+    <div class="wrap">
+      <div class="sec-head row">
+        <div>
+          <span class="kicker">精选</span>
+          <h2>综合分 Top 6</h2>
+          <p>先看按公开数据算出来的前六名 —— 评分口径与局限见下方「怎么用」的诚实说明。</p>
+        </div>
+        <div class="sec-tools">
+          <button class="btn" type="button" data-goto="skills">查看全部技能 →</button>
+        </div>
+      </div>
+      <div class="grid" id="featuredGrid"></div>
+    </div>
+  </section>
+  </div><!-- /home p1 -->
+
+  <div class="page" data-page="skills">
+  <!-- ─────────────── 技能列表 ─────────────── -->
+  <section class="section alt" id="skills">
+    <div class="wrap">
+      <div class="sec-head row">
+        <div>
+          <span class="kicker">登记册</span>
+          <h2>全部 Skill</h2>
+          <p>按路线 / 层级 / 许可 / 能力筛选，点开看样图与安装命令。综合分为本页按公开数据计算（star 45 · 活跃 15 · 许可 15 · 人工核读 10 · 能力 15），不是实测质量分。</p>
+        </div>
+        <div class="sec-tools">
+          <select id="sortSel" class="select" aria-label="排序">
+            <option value="score">按综合分</option>
+            <option value="stars">按 star 数</option>
+            <option value="active">按最近活跃</option>
+            <option value="name">按名称</option>
+          </select>
+          <button class="btn sm ghost" id="resetBtn" type="button">清除筛选</button>
+        </div>
+      </div>
+
+      <div class="filterbar" id="filterbar">
+        <div class="fb-search">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.48a5.5 5.5 0 1 1 .7-.7l3.03 3.03a.5.5 0 0 1-.7.71l-3.03-3.04Z"/></svg>
+          <input id="q" type="search" placeholder="搜索名称、简介、风格 ID…（/ 聚焦）" autocomplete="off">
+        </div>
+        <div class="fb-chips" id="chipsRoute"></div>
+        <div class="fb-chips" id="chipsTier"></div>
+        <div class="fb-chips" id="chipsLic"></div>
+        <div class="fb-chips" id="chipsFlag"></div>
+      </div>
+      <div class="filterbar caps" id="capsbar">
+        <span class="fb-label">能力</span>
+        <div class="fb-chips" id="chipsCap"></div>
+        <span class="fb-hint" id="resultCount"></span>
+      </div>
+
+      <div class="grid" id="grid"></div>
+      <div class="empty" id="empty" hidden>
+        <p>没有匹配的 skill。试试放宽筛选条件。</p>
+        <button class="btn sm" id="emptyReset" type="button">清除全部筛选</button>
+      </div>
+      <div class="more-row"><button class="btn" id="moreBtn" type="button" hidden>加载更多</button></div>
+    </div>
+  </section>
+
+  </div><!-- /skills -->
+
+  <div class="page" data-page="gallery">
+  <!-- ─────────────── 风格图库 ─────────────── -->
+  <section class="section" id="gallery">
+    <div class="wrap">
+      <div class="sec-head row">
+        <div>
+          <span class="kicker">样图来自各项目 README</span>
+          <h2>风格图库</h2>
+          <p>每张图都是项目自己公开的成品图（非本页实跑）。图注里的等宽字是<b>风格 ID</b> —— 装好 skill 后直接写进提示词即可点名。图库跟随上方筛选。</p>
+        </div>
+        <div class="sec-tools">
+          <div class="fb-search mini">
+            <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path fill="currentColor" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.48a5.5 5.5 0 1 1 .7-.7l3.03 3.03a.5.5 0 0 1-.7.71l-3.03-3.04Z"/></svg>
+            <input id="gq" type="search" placeholder="按风格 ID 过滤，如 editorial" autocomplete="off">
+          </div>
+        </div>
+      </div>
+      <div class="gi-grid" id="giGrid"></div>
+      <div class="more-row"><button class="btn" id="giMore" type="button" hidden>加载更多样图</button></div>
+    </div>
+  </section>
+
+  </div><!-- /gallery -->
+
+  <div class="page active" data-page="home">
+  <!-- ─────────────── 指南 ─────────────── -->
+  <section class="section alt" id="guide">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="kicker">拿到手之后</span>
+        <h2>怎么筛 · 怎么装 · 怎么在 Agent 里用</h2>
+      </div>
+
+      <div class="guide-grid">
+        <article class="gcard">
+          <h3><span class="step">1</span>四步筛出候选</h3>
+          <ol class="steps">
+            <li><b>定路线：</b>对方要编辑 → PPTX；否则 → HTML。</li>
+            <li><b>看层级：</b>S = 5k+ star 规模验证，A = 100–5k 实用候选，B = 新/小众。</li>
+            <li><b>对能力：</b>要「→ PPTX / 数据图表 / 演讲者模式」就点亮对应能力筛选；<code>·</code> 只代表文档没写，不等于不支持。</li>
+            <li><b>查许可：</b>商用与闭源场景优先 MIT / Apache；标 <span class="warn-inline">Copyleft</span> 的先看协议。</li>
+          </ol>
+          <p class="gnote">搜索框支持名称、简介、repo、<b>风格 ID</b>；<kbd>/</kbd> 聚焦搜索，<kbd>Ctrl K</kbd> 打开全局面板。</p>
+        </article>
+
+        <article class="gcard">
+          <h3><span class="step">2</span>60 秒做出同款</h3>
+          <ol class="steps">
+            <li><b>抄风格 ID：</b>样图下等宽字，如 <code>soft-editorial</code>。</li>
+            <li><b>点风格标签复制提示词：</b>图库卡片、详情页的风格标签一点就复制出完整提示词 —— 里面写好了 Skill 来源和安装命令，Agent 会先查装没装、征得你同意再自动装。</li>
+            <li><b>写进提示词：</b>风格 ID 不是命令行参数，是人话的一部分：</li>
+          </ol>
+          <pre class="code" id="promptTpl">用 soft-editorial 这个模板，把 docs/roadmap.md 做成一份 12 页的 deck，
+面向投资人，我会现场讲，所以每页字少一点。<button class="copy" data-copy-target="promptTpl" title="复制">⧉</button></pre>
+          <p class="gnote">点名风格 ID = 跳过预览挑选环节；想让它先给几个选项，就别点名，直接说「帮我做一份关于 X 的 deck」。复制出的提示词<b>按风格 ID 个性化</b>：带 Skill 来源、安装检查与该风格的专属要点，主题 / 受众用【】占位替换即可。</p>
+        </article>
+
+        <article class="gcard wide">
+          <h3><span class="step">3</span>在 Workbuddy 等各类 Agent 里用</h3>
+          <div class="two-col">
+            <div>
+              <p class="ghead">通用三件事</p>
+              <ol class="steps">
+                <li><b>拿到 skill：</b>详情页复制安装命令，或直接 <code>git clone</code> / 下载 zip。</li>
+                <li><b>放对位置：</b>skill = 一个含 <code>SKILL.md</code> 的目录，放进你所用 Agent 的 skills 目录或插件市场（Claude Code 是 <code>~/.claude/skills/</code>；跨 agent 可用 <code>skills-cli</code> 安装器；Workbuddy 等以各自「技能 / 插件」入口为准，认目录不认命令）。</li>
+                <li><b>自然语言触发：</b>不用记参数，直接说需求 +风格 ID，Agent 会按该 skill 的 <code>SKILL.md</code> 执行。</li>
+              </ol>
+            </div>
+            <div>
+              <p class="ghead">触发模板（改人话即可）</p>
+              <pre class="code" id="agentTpl">我要做一份给投资人的 deck（HTML 路线，不用改源文件）。
+用 frontend-slides 的 soft-editorial 风格，12 页，每页字少一点，
+结尾要有一页数据图表。先给我 3 个预览我来指。<button class="copy" data-copy-target="agentTpl" title="复制">⧉</button></pre>
+              <p class="gnote">把这个登记册本身装成 skill，agent 会先问路线问题、再报安装命令与风格 ID：<br>
+              <code>/plugin marketplace add brycewang-stanford/many-ppt-skills</code>（Claude Code 会话内）</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="gcard wide">
+          <h3><span class="step">4</span>八条原则 —— 这个领域最可靠的信号</h3>
+          <div class="princ" id="principles"></div>
+        </article>
+      </div>
+
+      <div class="callout">
+        <b>诚实的局限：</b>star 衡量关注度，不是质量；本页综合分按公开数据计算，<b>不是实测排名</b>；能力矩阵读自各项目文档（<code>·</code> = 未提及，不等于不支持）；样图是各团队自己挑的宣传帧，不是同题横评。登记册 227 个中 39 个人工核读。
+      </div>
+    </div>
+  </section>
+  </div><!-- /home p2 -->
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-inner">
+    <div>
+      <span class="logo sm">◱</span>
+      PPT Skills 图鉴 — 基于 <a href="https://github.com/brycewang-stanford/many-ppt-skills" target="_blank" rel="noopener">many-ppt-skills</a> 登记册数据构建
+    </div>
+    <div class="foot-meta">
+      <span>登记册数据 © many-ppt-skills · CC BY 4.0</span>
+      <span>样图版权归各项目所有，链回原文件</span>
+      <span>本页构建于 <b id="footBuilt">—</b></span>
+    </div>
+  </div>
+</footer>
+
+<!-- ─────────────── 详情抽屉 ─────────────── -->
+<div class="scrim" id="drawerScrim" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="skill 详情">
+  <div class="drawer-inner" id="drawerInner"></div>
+</aside>
+
+<!-- ─────────────── 命令面板 ─────────────── -->
+<div class="palette-wrap" id="palette" hidden>
+  <div class="palette-scrim" data-close></div>
+  <div class="palette" role="dialog" aria-label="搜索">
+    <div class="pal-input">
+      <svg viewBox="0 0 16 16" width="15" height="15" aria-hidden="true"><path fill="currentColor" d="M11.5 7a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm-.82 4.48a5.5 5.5 0 1 1 .7-.7l3.03 3.03a.5.5 0 0 1-.7.71l-3.03-3.04Z"/></svg>
+      <input id="palInput" type="text" placeholder="搜索 skill、风格 ID，或输入命令…" autocomplete="off" spellcheck="false">
+      <kbd>Esc</kbd>
+    </div>
+    <div class="pal-list" id="palList"></div>
+    <div class="pal-foot">
+      <span><kbd>↑</kbd><kbd>↓</kbd> 选择</span><span><kbd>Enter</kbd> 打开</span><span><kbd>Esc</kbd> 关闭</span>
+    </div>
+  </div>
+</div>
+
+<!-- ─────────────── 灯箱 ─────────────── -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="关闭">✕</button>
+  <button class="lb-nav prev" id="lbPrev" aria-label="上一张">‹</button>
+  <figure>
+    <img id="lbImg" alt="">
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lb-nav next" id="lbNext" aria-label="下一张">›</button>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

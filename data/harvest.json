@@ -1,0 +1,1817 @@
+{
+ "skills": {
+  "visual-explainer": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/nicobailon/visual-explainer/main/banner.png",
+     "label": "visual-explainer"
+    }
+   ]
+  },
+  "anthropic-pptx": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/anthropics/skills",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "huawei-style-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/zuiho-kai/huawei-style-ppt-skill/master/examples/rd-quarterly/screenshots/01-cover.png",
+     "label": "研发季度总结封面"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/zuiho-kai/huawei-style-ppt-skill/master/examples/rd-quarterly/screenshots/02-delivery.png",
+     "label": "项目交付：12 个项目已完成，10 个按期"
+    }
+   ]
+  },
+  "slidev": {
+   "samples": [
+    {
+     "url": "https://developer.stackblitz.com/img/open_in_stackblitz.svg",
+     "label": "README 首图"
+    },
+    {
+     "url": "https://sli.dev/logo-title.png",
+     "label": "Slidev"
+    }
+   ]
+  },
+  "quarkdown": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/iamgio/quarkdown/project-files/images/paged-demo.png",
+     "label": "Paper demo"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/quarkdown-labs/quarkdown-vscode/refs/heads/project-files/live-preview.gif",
+     "label": "Live preview"
+    }
+   ]
+  },
+  "banana-slides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Anionex/banana-slides/main/assets/huoshan.png",
+     "label": "火山引擎"
+    },
+    {
+     "url": "https://contrib.rocks/image?repo=Anionex/banana-slides",
+     "label": "Contributors"
+    }
+   ]
+  },
+  "html-anything": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/nexu-io/html-anything/main/docs/screenshots/skills/deck-guizang-editorial.png",
+     "label": "deck-guizang-editorial"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/nexu-io/html-anything/main/docs/screenshots/skills/deck-swiss-international.png",
+     "label": "deck-swiss-international"
+    }
+   ]
+  },
+  "dashi-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://github.com/chuspeeism/dashi-ppt-skill/releases/download/readme-assets-v1/hero-result.gif",
+     "label": "生成效果演示"
+    },
+    {
+     "url": "https://github.com/chuspeeism/dashi-ppt-skill/releases/download/readme-assets-v1/slider-edit.gif",
+     "label": "拖动滑杆调节目录、表格、多项式、图片数量"
+    }
+   ]
+  },
+  "codex-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/main/assets/slides_example.png",
+     "label": "生成 PPT 效果示例"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/ningzimu/codex-ppt-skill/main/assets/paper-figures-example.png",
+     "label": "论文原图插入案例"
+    }
+   ]
+  },
+  "baoyu-design": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/main/assets/screenshots/cursor-reader-mac-app.webp",
+     "label": "Cursor running baoyu-design"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/JimLiu/baoyu-design/main/assets/screenshots/codex-reader-mac-app.webp",
+     "label": "Codex running baoyu-design"
+    }
+   ]
+  },
+  "gordenpptskill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/GordenSun/GordenPPTSkill/main/assets/showcase-1.jpg",
+     "label": "效果展示 1 - 战略定位分析"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/GordenSun/GordenPPTSkill/main/assets/showcase-2.jpg",
+     "label": "效果展示 2 - 价值冰山模型"
+    }
+   ]
+  },
+  "oh-my-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/arcsin1/oh-my-ppt/main/thumb.png",
+     "label": "Oh My PPT"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/arcsin1/oh-my-ppt/main/docs/images/OhMyPPT.png",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "image-to-editable-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/ningzimu/image-to-editable-ppt-skill/main/assets/showcase-origin-investment-platform.png",
+     "label": "投资平台信息图原图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/ningzimu/image-to-editable-ppt-skill/main/assets/showcase-editable-ppt-result-investment-platform.png",
+     "label": "投资平台信息图转换后可编辑效果"
+    }
+   ]
+  },
+  "gordensuperpptskills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/GordenSun/GordenSuperPPTSkills/main/examples/example-Image-ppt.png",
+     "label": "GordenImagePPTGen 生成的图片格式 PPT 示例"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/GordenSun/GordenSuperPPTSkills/main/examples/example-editable-pptx.png",
+     "label": "GordenImage2PPTX 转换后的可编辑 PPTX 示例"
+    }
+   ]
+  },
+  "cyberppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/crazyykhllc-bit/CyberPPT/main/assets/palette-samples/palette-01.png",
+     "label": "Palette 01"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/crazyykhllc-bit/CyberPPT/main/assets/palette-samples/palette-02.png",
+     "label": "Palette 02"
+    }
+   ]
+  },
+  "ian-handdrawn-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/helloianneo/ian-handdrawn-ppt/main/examples/images/cover-automation-boundary.png",
+     "label": "能自动化不等于该自动化"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/helloianneo/ian-handdrawn-ppt/main/examples/images/page-01-reading-two-things.png",
+     "label": "阅读其实是两件事"
+    }
+   ]
+  },
+  "ppt-image-first": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/master/docs/images/workflow-overview-slide.png",
+     "label": "整体流程示意图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/NyxTides/ppt-image-first/master/docs/images/sample-meteorology-defense-deck.png",
+     "label": "气象答辩首页示例"
+    }
+   ]
+  },
+  "gpt-image2-ppt-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/main/docs/assets/template-gallery.jpg",
+     "label": "SlideCraft Template Gallery：浏览并复制喜欢的 PPT 模板"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/JuneYaooo/gpt-image2-ppt-skills/main/docs/assets/template-gallery-detail.jpg",
+     "label": "SlideCraft Template Gallery 模板详情页：逐页预览并复制 Prompt"
+    }
+   ]
+  },
+  "ppt-agent-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/sunbigfly/ppt-agent-skills/main/assets/screenshots/slide1.png",
+     "label": "README 首图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/sunbigfly/ppt-agent-skills/main/assets/screenshots/slide2.png",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "humanize-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/LearnPrompt/humanize-ppt/main/docs/showcase/ppt-master-native/zh/preview.png",
+     "label": "PPT Master 中文 Memphis Pop 原生可编辑 PPTX Showcase 五页预览"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/LearnPrompt/humanize-ppt/main/docs/showcase/ppt-master-native/en/preview.png",
+     "label": "PPT Master English Risograph Zine native editable PPTX showcase, five-slide prev"
+    }
+   ]
+  },
+  "claudeskills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/main/skills/Geek-skills-deck-studio/style-library/creative/bauhaus-preview.png",
+     "label": "Bauhaus deck style preview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/staruhub/ClaudeSkills/main/skills/Geek-skills-deck-studio/style-library/creative/constructivist-preview.png",
+     "label": "Constructivist deck style preview"
+    }
+   ]
+  },
+  "power-design": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/ItsssssJack/power-design/main/principles/images/cta-go-deeper.png",
+     "label": "Power Design"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/ItsssssJack/power-design/main/principles/images/rule-01-one-idea.png",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "revealjs-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/ryanbbrown/revealjs-skill",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "paper2anything": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/QuZhan51496/paper2anything/main/assets/marquee.webp",
+     "label": "A marquee of real artifacts produced by paper2anything — slide decks, posters, p"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/QuZhan51496/paper2anything/main/assets/showcase/paper2slides/SHOWCASE_decks.png",
+     "label": "Eight slide decks generated by paper2slides from paper PDFs, across diverse rese"
+    }
+   ]
+  },
+  "rw-consulting-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Pikapika260214/rw-consulting-ppt/main/skills/rw-consulting-ppt/examples/ai-companion-toys-management-deck/overview-3x2.png",
+     "label": "AI 陪伴玩具 6 页高清 overview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Pikapika260214/rw-consulting-ppt/main/skills/rw-consulting-ppt/examples/ai-glasses-market-deck/overview-3x2.png",
+     "label": "AI 眼镜 6 页高清 overview"
+    }
+   ]
+  },
+  "beamer-academic": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/main/docs/cover.png",
+     "label": "Beamer Academic"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Faust-Donf/beamer-academic/main/docs/toc.png",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "thesis-defense-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/main/examples/minimal_markdown/expected/generated_overview_01.png",
+     "label": "生成示例 slides 1-4 总览"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/zouchenzhen/thesis-defense-pptx-skill/main/examples/minimal_markdown/expected/generated_overview_02.png",
+     "label": "生成示例 slides 5-8 总览"
+    }
+   ]
+  },
+  "apple-bento-grid": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/hubeiqiao/apple-bento-grid/main/examples/real-project-light-horizontal.webp",
+     "label": "Project horizontal"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/hubeiqiao/apple-bento-grid/main/examples/real-corpus-dark-horizontal.jpg",
+     "label": "Corpus horizontal"
+    }
+   ]
+  },
+  "codex-ppt-skill-ronnie2025": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Ronnie2025/codex-ppt-skill/main/assets/examples/01-risk-evolution.png",
+     "label": "风险升级路径"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Ronnie2025/codex-ppt-skill/main/assets/examples/02-risk-framework.png",
+     "label": "风险框架"
+    }
+   ]
+  },
+  "ppt-image2-editable-rebuild": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/wwe-dog/ppt-image2-editable-rebuild/main/examples/reference-images/slide04_reference.png",
+     "label": "推荐示例：第二章绿色主题参考图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/wwe-dog/ppt-image2-editable-rebuild/main/assets/not-recommended-orange-theme.png",
+     "label": "不推荐示例：第三章橙色主题参考图"
+    }
+   ]
+  },
+  "slide-image-to-editable-pptx": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/w1163222589-coder/slide-image-to-editable-pptx/main/assets/screenshots/8和9合在一起.jpg",
+     "label": "Phase 2 visual asset workflow"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/w1163222589-coder/slide-image-to-editable-pptx/main/assets/screenshots/第一张.jpg",
+     "label": "Slide reconstruction preview 1"
+    }
+   ]
+  },
+  "magic-slide": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/daniel-style/magic-slide/main/assets/readme/magic-slide-promo.png",
+     "label": "Magic Slide promotional artwork"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/daniel-style/magic-slide/main/assets/readme/magic-slide-logo.svg",
+     "label": "Magic Slide logo"
+    }
+   ]
+  },
+  "presentation-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/main/assets/apple-editorial-ink-native_contact-sheet.png",
+     "label": "Apple editorial ink native test contact sheet"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Sven-LI-sankyuu/presentation-skills/main/assets/apple-financial-report-review_contact-sheet.png",
+     "label": "Apple FY2025 financial report review contact sheet"
+    }
+   ]
+  },
+  "claude-design-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/jiji262/claude-design-skill/main/docs/images/demo-1-deck.png",
+     "label": "5-slide pitch deck in Swiss Editorial style"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/jiji262/claude-design-skill/main/docs/images/demo-2-canvas.png",
+     "label": "Four hero variations across design schools"
+    }
+   ]
+  },
+  "ultimate-ppt-master-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/main/assets/preserve-demo/before-after-real.png",
+     "label": "保真编辑：只改第 1 页标题，其余部分原样不动"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/kdnsna/ultimate-ppt-master-skill/main/assets/readme/output-gallery.svg",
+     "label": "作品集"
+    }
+   ]
+  },
+  "slide-deck-generator": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/main/examples/en-context-engineering.png",
+     "label": "en-context-engineering"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/code-on-sunday/slide-deck-generator/main/examples/en-claude-code-skills.png",
+     "label": "en-claude-code-skills"
+    }
+   ]
+  },
+  "ppt-report-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/myunwang/ppt-report-skills/main/docs/screenshots/recsys-architecture.png",
+     "label": "Recsys architecture"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/myunwang/ppt-report-skills/main/docs/screenshots/landscape-map.png",
+     "label": "Industry landscape map"
+    }
+   ]
+  },
+  "ai-paper2slide-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Leo1998-Lu/ai-paper2slide-skill",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "literature-report-ppt-builder": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/fangyuanopus/literature-report-ppt-builder/main/docs/images/demo-slide-01-title.jpg",
+     "label": "Image2 示例封面"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/fangyuanopus/literature-report-ppt-builder/main/docs/images/demo-slide-02-evidence.jpg",
+     "label": "Image2 示例证据页"
+    }
+   ]
+  },
+  "knight-imagetopptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/knight6669/knight-imagetopptx-skill/main/assets/reference-slide-01.png",
+     "label": "Source slide 1"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/knight6669/knight-imagetopptx-skill/main/assets/rebuilt-slide-01.png",
+     "label": "Rebuilt editable PPT effect 1"
+    }
+   ]
+  },
+  "cn-academic-spark": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/wycmochi/cn-academic-spark/main/example_asset/case-transportation-partc.png",
+     "label": "案例展示"
+    }
+   ]
+  },
+  "knowledge-cat-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/main/docs/images/mode-native-pptx.png",
+     "label": "Native PPTX mode preview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/gnipbao/knowledge-cat-ppt-skill/main/docs/images/mode-html-deck.png",
+     "label": "HTML deck mode preview"
+    }
+   ]
+  },
+  "deck-factory": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/gongnyang/deck-factory/master/docs/media/hero.gif",
+     "label": "deck-factory in motion"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/gongnyang/deck-factory/master/docs/gallery/slide-01.jpg",
+     "label": "Slide 1"
+    }
+   ]
+  },
+  "space-multi-design-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/SpaceZephyr/space-multi-design-ppt/main/examples/flowpilot-notion/preview.png",
+     "label": "FlowPilot · Notion"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/SpaceZephyr/space-multi-design-ppt/main/examples/chengzhou-coffee-claude/preview.png",
+     "label": "橙洲咖啡 · Claude"
+    }
+   ]
+  },
+  "lieflat-html-design": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/larashero3-dotcom/lieflat-html-design/main/previews/zh/editorial.png",
+     "label": "杂志风 Editorial 预览"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/larashero3-dotcom/lieflat-html-design/main/previews/zh/sunrise.png",
+     "label": "日光 Sunrise 预览"
+    }
+   ]
+  },
+  "awesome-ppt-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/stevenjinlong/awesome-ppt-skills/main/examples/transformer-architecture-image-first/preview.jpg",
+     "label": "Transformer architecture image-first PPT example"
+    },
+    {
+     "url": "https://api.star-history.com/svg?repos=stevenjinlong/awesome-ppt-skills&type=Date",
+     "label": "Star History Chart"
+    }
+   ]
+  },
+  "html-to-editable-pptx": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/main/assets/compare/yanshi2_ours_grid.png",
+     "label": "html-to-pptx output rendered in PowerPoint"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Hasasasa/html-to-editable-pptx/main/assets/compare/yanshi1_ours_grid.png",
+     "label": "Signal PPT output"
+    }
+   ]
+  },
+  "baoyu-xuanyi-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/xuanxuan1983/baoyu-xuanyi-skills/main/screenshots/update-plugins.png",
+     "label": "Update Skills"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/xuanxuan1983/baoyu-xuanyi-skills/main/screenshots/slide-deck-styles/blueprint.webp",
+     "label": "blueprint"
+    }
+   ]
+  },
+  "imagegen-pptx-pipeline": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/eddyzzl/imagegen-pptx-pipeline/main/docs/assets/showcase-zh-product-intro.png",
+     "label": "中文产品介绍 3x3 PPT 效果图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/eddyzzl/imagegen-pptx-pipeline/main/docs/assets/showcase-zh-technical-report.png",
+     "label": "中文技术汇报 3x3 PPT 效果图"
+    }
+   ]
+  },
+  "presentation-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.12_narrative_process.jpg",
+     "label": "Eight narrative and process styles"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/siril9/presentation-skill/main/examples/v0.12_evidence_decisions.jpg",
+     "label": "Evidence and decision slides across eight styles"
+    }
+   ]
+  },
+  "pptskill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/AIPMAndy/PPTskill/main/docs/assets/screenshots/preview_magazine_garden.png",
+     "label": "PPTskill Demo"
+    }
+   ]
+  },
+  "blcaptain-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/dososo/blcaptain-ppt-skill/main/docs/gallery/cover-compute.png",
+     "label": "Technical Sublime cover"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/dososo/blcaptain-ppt-skill/main/docs/gallery/cover-constructivist.png",
+     "label": "Constructivism cover"
+    }
+   ]
+  },
+  "codeximage-to-editable-ppt-v1": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/wiltonesten-web/codeximage-to-editable-ppt-v1/main/examples/csh-nep-editable-slide/original-flattened-slide.png",
+     "label": "原始扁平化科学演示幻灯片"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/wiltonesten-web/codeximage-to-editable-ppt-v1/main/examples/csh-nep-editable-slide/editable-powerpoint-view.png",
+     "label": "带有对象选择框的可编辑 PowerPoint 重建结果"
+    }
+   ]
+  },
+  "slides-ai-plugin": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/proyecto26/slides-ai-plugin",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "ppt-design-dna": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/dakjdakd/PPT-Design-DNA/main/assets/readme/hero-preview.png",
+     "label": "PPT-Design-DNA hero preview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/dakjdakd/PPT-Design-DNA/main/assets/readme/demo-pop-comic.png",
+     "label": "Pop Comic consulting demo"
+    }
+   ]
+  },
+  "competition-ppt-template-first-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/che626/competition-ppt-template-first-skill",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "slide-wright": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/6839eba2-a228-4324-8dc0-983e235991f7",
+     "label": "ClickHouse example slide 1"
+    },
+    {
+     "url": "https://github.com/user-attachments/assets/e9208b1f-c813-4a0f-b4ef-b760c011981d",
+     "label": "ClickHouse example slide 2"
+    }
+   ]
+  },
+  "four-up-ppt-generator": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/woniuniuniu/four-up-ppt-generator/main/docs/images/four-up-ppt-light-theme.png",
+     "label": "Four-up PPT Generator light theme preview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/woniuniuniu/four-up-ppt-generator/main/docs/images/four-up-ppt-dark-theme.png",
+     "label": "Four-up PPT Generator dark theme preview"
+    }
+   ]
+  },
+  "nanobanana-ppt-skills-girish6055": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/girish6055/NanoBanana-PPT-Skills",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "ppt-image-share-builder": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/uuoov/ppt-image-share-builder/main/assets/hero-contact-sheet.jpg",
+     "label": "Demo contact sheet"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/uuoov/ppt-image-share-builder/main/assets/demo.gif",
+     "label": "Demo animation"
+    }
+   ]
+  },
+  "slide-design-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/main/assets/slide-design-skill-launch.gif",
+     "label": "Decks designed by slide-design-skill"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/SlideSpeak/slide-design-skill/main/assets/examples/chromafield.jpg",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "better-ppt-html-deck": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/be5adbd3-6870-403e-8dde-c0b33e5c6477",
+     "label": "image"
+    },
+    {
+     "url": "https://github.com/user-attachments/assets/63b74bb7-b36e-4548-ba39-a74709d039cc",
+     "label": "image"
+    }
+   ]
+  },
+  "create-html-deck": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/awesome-skills/create-html-deck/main/assets/create-html-deck-hero.png",
+     "label": "HTML 演示文稿在笔记本与投影环境中的完整工作流"
+    }
+   ]
+  },
+  "aws-html-slides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/lanceli93/aws-html-slides/main/docs/overview-slides.png",
+     "label": "Overview mode — PPT-style thumbnail grid"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/lanceli93/aws-html-slides/main/docs/layouts/neon-title.png",
+     "label": "Neon kinetic title over WebGL aurora"
+    }
+   ]
+  },
+  "pradaslides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/prodigeproject/pradaslides/master/assets/benchmark/pradaslides-html-benchmark.png",
+     "label": "PradaSlides tuned V2 benchmark cover"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/prodigeproject/pradaslides/master/assets/benchmark/pradaslides-tuned-v2-media.png",
+     "label": "PradaSlides tuned V2 media-composition slide"
+    }
+   ]
+  },
+  "japanese-corporate-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/gonta223/japanese-corporate-pptx-skill/main/skills/japanese-corporate-pptx/assets/japanese-corporate-ponchi-layouts.png",
+     "label": "15種類の編集可能なレイアウト"
+    }
+   ]
+  },
+  "slidestage-pack": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/SlideStage/SlideStageLite/main/packages/brand/assets/png/slidestage-pack-logo-horizontal.png",
+     "label": "slidestage-pack"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/SlideStage/SlideStageLite/main/packages/brand/assets/png/slidestage-mark.png",
+     "label": "SlideStage Lite"
+    }
+   ]
+  },
+  "deckset-claude-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/doudou1337/deckset-claude-skill",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "ai-draw-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/stone-yu/ai-draw-skill/main/docs/theme-previews/tech-dark.png",
+     "label": "README 首图"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/stone-yu/ai-draw-skill/main/docs/theme-previews/blueprint.png",
+     "label": "README 首图"
+    }
+   ]
+  },
+  "keynot": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/shawnzam/keynot/main/assets/zombies-preview.png",
+     "label": "Live demo: Keynot for Zombies"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/shawnzam/keynot/main/assets/logo.png",
+     "label": "Keynot — Kill PowerPoint with HTML"
+    }
+   ]
+  },
+  "mbb-decks": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/floflo11/mbb-decks/main/examples/data-center-landscape/compare-cover.png",
+     "label": "Cover comparison"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/floflo11/mbb-decks/main/examples/data-center-landscape/compare-agenda.png",
+     "label": "Agenda comparison"
+    }
+   ]
+  },
+  "cyberbin-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/caikankan/cyberbin-ppt-skill/main/assets/preview/cyberbin-pinboard-preview.png",
+     "label": "CyberBin Pinboard preview"
+    }
+   ]
+  },
+  "baoyu-skills": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/screenshots/update-plugins.png",
+     "label": "Update Skills"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/JimLiu/baoyu-skills/main/screenshots/xhs-images-styles/cute.webp",
+     "label": "cute"
+    }
+   ]
+  },
+  "future-slide": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/bytonylee/future-slide/main/public/diagram/four-skill-flow.png",
+     "label": "Future Slide Skill Flow"
+    }
+   ]
+  },
+  "jingge-sense-deck": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/863060de-f22d-4e00-b669-3e38e1602bc6",
+     "label": "ChatGPT Image 2026年5月7日 15_49_46"
+    }
+   ]
+  },
+  "iml-pptx": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/tangonho/iml-pptx/main/assets/showcase/01-gen-cover.jpg",
+     "label": "cover"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/tangonho/iml-pptx/main/assets/showcase/01-edit-cover.jpg",
+     "label": "cover-editable"
+    }
+   ]
+  },
+  "mck-html-design-skill": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/d4eb704e-3825-4380-ac54-2fbbe4c993ce",
+     "label": "WeChat Group"
+    }
+   ]
+  },
+  "html-to-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/artifact-kit/html-to-pptx-skill/main/assets/proof/01-source-html.png",
+     "label": "Source HTML slide"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/artifact-kit/html-to-pptx-skill/main/assets/proof/02-generated-pptx-preview.png",
+     "label": "Generated PPTX preview"
+    }
+   ]
+  },
+  "bento-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/YingYveltal/bento-ppt-skill/main/examples/dify-intro/shots/01-cover.png",
+     "label": "cover"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/YingYveltal/bento-ppt-skill/main/examples/dify-intro/shots/05-pre-launch.png",
+     "label": "data page"
+    }
+   ]
+  },
+  "fudan-university-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/JZCreative/Fudan-University-PPT-skill/main/examples/wittgenstein-demo/readme-hero.png",
+     "label": "复旦大学学术PPT风格设计"
+    }
+   ]
+  },
+  "presentation-chef": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/sacredvoid/presentation-chef/main/assets/screenshots/slide-1-hero.png",
+     "label": "Hero slide"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/sacredvoid/presentation-chef/main/assets/screenshots/slide-2-stats.png",
+     "label": "Stats slide"
+    }
+   ]
+  },
+  "paper-figure-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/main/docs/assets/hero.png",
+     "label": "paper-figure-pptx-skill hero"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/fengting124/paper-figure-pptx-skill/main/docs/assets/effect-comparison.png",
+     "label": "Effect comparison showing source figure and LibreOffice-rendered PPTX reconstruc"
+    }
+   ]
+  },
+  "guizang-ppt-skill-alingowangxr": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/5dc316a2-401c-4e37-9123-ea081b6ae470",
+     "label": "Style A 电子杂志风效果展示"
+    },
+    {
+     "url": "https://github.com/user-attachments/assets/8960e78c-69bb-4b7e-aa95-6fad64b70314",
+     "label": "Style B 瑞士国际主义效果展示"
+    }
+   ]
+  },
+  "html-ppt-skill-chenyangji666": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/chenyangji666/html-ppt-skill/main/screenshot_cover.png",
+     "label": "封面页"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/chenyangji666/html-ppt-skill/main/screenshot_content5.png",
+     "label": "数据密集页"
+    }
+   ]
+  },
+  "ppt-expert-team": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/ThunderOne18/ppt-expert-team/main/docs/images/workflow-overview.png",
+     "label": "从需求到可编辑 PPT"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/ThunderOne18/ppt-expert-team/main/docs/images/style-picker.png",
+     "label": "风格选择器"
+    }
+   ]
+  },
+  "vela-slides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/AgentiaPT/vela-slides/main/docs/screenshot.png",
+     "label": "Vela Slides Screenshot"
+    }
+   ]
+  },
+  "paper-to-latex-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/moyoo0/paper-to-latex-ppt/main/docs/images/example-grid.png",
+     "label": "Slides grid"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/moyoo0/paper-to-latex-ppt/main/docs/images/start.png",
+     "label": "Paper to LaTeX PPT 工作流"
+    }
+   ]
+  },
+  "ppt-master-categorytyy": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Categorytyy/ppt-master/master/效果展示/1.png",
+     "label": "封面"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Categorytyy/ppt-master/master/效果展示/2.png",
+     "label": "目录"
+    }
+   ]
+  },
+  "modern-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/lainshao/modern-ppt/main/assets/demo.gif",
+     "label": "演示 · 按 1/2/3 一键换配色，12 个版式整体秒变色"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/lainshao/modern-ppt/main/assets/preview-orange.png",
+     "label": "orange"
+    }
+   ]
+  },
+  "presentation-forge": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/thmsgo18/presentation-forge/main/docs/screenshots/presenter-mode.png",
+     "label": "Presenter mode: speaker notes, timer and next-slide preview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/thmsgo18/presentation-forge/main/docs/screenshots/comparison-table.png",
+     "label": "A content slide built with the obsidian theme, comparing PowerPoint and Presenta"
+    }
+   ]
+  },
+  "tekion-slide-generator": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/rsensui2/tekion-slide-generator/main/docs/screenshots/cover.png",
+     "label": "cover"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/rsensui2/tekion-slide-generator/main/docs/screenshots/solution.png",
+     "label": "solution"
+    }
+   ]
+  },
+  "ppt-skills-caciniep": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/CacinieP/ppt-skills/main/docs/img/hero-commercial.jpg",
+     "label": "Slide Recipes — investor, consulting and studio presentation samples"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/CacinieP/ppt-skills/main/docs/img/demos/miku/miku-slide-1.jpg",
+     "label": "miku cover"
+    }
+   ]
+  },
+  "zhongguose-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/tanglele110-hash/zhongguose-ppt-skill/main/docs/preview/template-01-cover.png",
+     "label": "模板封面：飞泉绿主题色示例"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/tanglele110-hash/zhongguose-ppt-skill/main/docs/preview/template-02-divider.png",
+     "label": "章节扉页与框架导航"
+    }
+   ]
+  },
+  "paper2scholarslides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/ficooooo/Paper2ScholarSlides/main/assets/gallery/project-overview.png",
+     "label": "Project overview"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/ficooooo/Paper2ScholarSlides/main/assets/gallery/academic-figures-overview.png",
+     "label": "Academic figures"
+    }
+   ]
+  },
+  "aham-ppt": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/Aham-AIAPP/aham-ppt/main/assets/social-preview.png",
+     "label": "Aham PPT — 克制的 AI PPT 制作技能"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/Aham-AIAPP/aham-ppt/main/assets/shots/theme-a-cover.png",
+     "label": "A 克制档"
+    }
+   ]
+  },
+  "notrat-ppt-studio-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/NestMold/notrat-ppt-studio-skill/main/assets/demo-flyin.gif",
+     "label": "Notrat PPT Studio · editable 对象动画演示"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/NestMold/notrat-ppt-studio-skill/main/assets/demo-hybrid-animation.gif",
+     "label": "Notrat PPT Studio · hybrid 混合动画演示"
+    }
+   ]
+  },
+  "ppt-design-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/billLiao/PPT-Design-Skill/main/docs/previews/themes-grid.png",
+     "label": "themes"
+    }
+   ]
+  },
+  "special-achievement-report": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/xxxd666/special-achievement-report/main/docs/screenshots/banner.jpg",
+     "label": "专项成果汇报"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/xxxd666/special-achievement-report/main/docs/screenshots/02-palette.jpeg",
+     "label": "配色总览"
+    }
+   ]
+  },
+  "html-ppt-academic-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/w1ndys/html-ppt-academic-skill",
+     "label": "GitHub 仓库卡片（README 样图不可用）"
+    }
+   ]
+  },
+  "svg2pptx-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/JamieJustTang/svg2pptx-skill/main/docs/realcase-png-to-pptx.png",
+     "label": "Real case: a PNG screenshot becomes a fully-editable PPTX"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/JamieJustTang/svg2pptx-skill/main/docs/before-after.png",
+     "label": "Before and after: a flat SVG becomes native, editable PowerPoint shapes"
+    }
+   ]
+  },
+  "frontend-slides-dreamid27": {
+   "samples": [
+    {
+     "url": "https://img.youtube.com/vi/372Iksaz8b0/maxresdefault.jpg",
+     "label": "Watch the Frontend Slides walkthrough and tutorial on YouTube"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/zarazhangrui/beautiful-html-templates/main/screenshots/soft-editorial-4.png",
+     "label": "Soft Editorial — slide 4"
+    }
+   ]
+  },
+  "skill-doc2ppt": {
+   "samples": [
+    {
+     "url": "https://github.com/user-attachments/assets/8e9e9b78-f4ae-4bf3-b45d-e2ee874ae7fa",
+     "label": "image"
+    },
+    {
+     "url": "https://github.com/user-attachments/assets/1ae455e0-4b72-4038-837f-68a7856f4be1",
+     "label": "image"
+    }
+   ]
+  },
+  "economics-empirical-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/jialiruo-png/economics-empirical-ppt-skill/main/docs/preview-1-overview.png",
+     "label": "整体板块概览（封面 / 研究背景 / 文献综述）"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/jialiruo-png/economics-empirical-ppt-skill/main/docs/preview-2-empirical.png",
+     "label": "研究设计 + 实证结果（含 DID 模型、Model 1–5 表格、机制解释、州层异质性）"
+    }
+   ]
+  },
+  "ustc-ppt-template": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/zsc58/ustc-ppt-template/main/preview/slide-01.jpg",
+     "label": "封面"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/zsc58/ustc-ppt-template/main/preview/slide-02.jpg",
+     "label": "目录"
+    }
+   ]
+  },
+  "starry-slides": {
+   "samples": [
+    {
+     "url": "https://raw.githubusercontent.com/StarryKit/starry-slides/main/assets/demos/roadtrip-editing.gif",
+     "label": "StarryKit creating and editing a road-trip presentation"
+    },
+    {
+     "url": "https://raw.githubusercontent.com/StarryKit/starry-slides/main/assets/demos/event-design.gif",
+     "label": "StarryKit creating an editable event poster"
+    }
+   ]
+  },
+  "claude-office-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/tfriedel/claude-office-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "academic-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Gabberflast/academic-pptx-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "visual-cognition-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/edu-ai-builders/visual-cognition-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "nanobanana-ppt-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/op7418/NanoBanana-PPT-Skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "codex-claude-academic-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/zLanqing/codex-claude-academic-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "visual-style-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/irenerachel/visual-style-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "beamer-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Noi1r/beamer-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "dom-to-pptx": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/atharva9167j/dom-to-pptx",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "marp-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/robonuggets/marp-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "planners-ppt-hell": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/thePlannerIvan/planners-ppt-hell",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "hands-on-deck": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/EveryInc/hands-on-deck",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "skywork-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/SkyworkAI/Skywork-Skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "servasyy-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/huangserva/servasyy_skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-ppt-designer": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/andyhuo520/html-ppt-designer",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "powerpoint-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Noi1r/powerpoint-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "make-slide": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Kuneosu/make-slide",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "presentation-skills-pamelafox": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/pamelafox/presentation-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "sjtu-ppt-template-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/ACTAshui/sjtu-ppt-template-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "jiarui-svg-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/shenxiaofeng-pro/jiarui-svg-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "editableimage2pptskill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/soulmujoco/EditableImage2PPTSkill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "presentation": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/appautomaton/presentation",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "claude-code-codex-slide": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/phodal/claude-code-codex-slide",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "beautiful-hackathon-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Esther2524/beautiful-hackathon-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "paper-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/xiao634zhang/paper-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "slidev-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/yoanbernabeu/slidev-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-to-ppt-pdf": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/wangzan101/html-to-ppt-pdf",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "scholar-ppt-cn": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/deathcats4/scholar-ppt-cn",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "narrative-engine": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/nraford7/Narrative-Engine",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "image-ppt-king": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/TateZhouSiu/image-ppt-king",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-creater-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Yu-0312/ppt-creater-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "beamer-skill-jaxonjp": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/JaxonJP/beamer-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "nanobanana-ppt-skills-xj-bear": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/xj-bear/NanoBanana-PPT-Skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "halfai-gufappt": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/HalfAI1102/HalfAI-gufappt",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "editable-leadership-pptx": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/CamelKing1997/editable-leadership-pptx",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "presentation-skill-orangeviolin": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/OrangeViolin/presentation-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "econ-empirical-paper-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/1793065778/econ-empirical-paper-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-to-pptx": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Emily27-alt/html-to-pptx",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "neon-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/lqshow/neon-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "claude-html-slide-builder": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/mathruffian-dot/claude-html-slide-builder",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "30x-mckinsey-research-deck": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/norahe0304-art/30x-mckinsey-research-deck",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "keynote-slides-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/dbmcco/keynote-slides-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-agent": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/joker-sxj/ppt-agent",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "interactive-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/sylvial928/interactive-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "pptx-template-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/CxyZyr/PPTX-Template-Skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "kai-presentation": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/yevvonlim/kai-presentation",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "sanjay-ai-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/sanjay3290/ai-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "gzr-nsfc-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/admithuman/gzr-nsfc-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "slidesmith-multi-agent-ai-slide-maker": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/aryankumawat/SlideSmith-Multi-Agent-AI-Slide-Maker-",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ai-editable-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/iwbaga724-Hinda/ai-editable-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/danny0926/ppt-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "talktrack": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/RuiqiWang-LGD/TalkTrack--",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-to-pptx-nlj626": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/nlj626/html-to-pptx",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "soil-deck-skills": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/mathruffian-dot/soil-deck-skills",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-image-to-editable": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/L-Luke-L/ppt-image-to-editable",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "bruce-pptx-generator": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/bruc3van/bruce-pptx-generator",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/lgwanai/ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "xidian-slides-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/perper999/xidian-slides-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "paper2slides-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/inhyeoklee/paper2slides-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "editable-pptx-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Liuguanyi2125/editable-pptx-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "pre-pp": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/MiraclePlus/pre-pp",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "zjlab-academic-pptx-sklls": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/qianmo-qp/zjlab-academic-pptx-sklls",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "research-group-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/lirouroud/research-group-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "consulting-diagnosis-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Carl-Marks/consulting-diagnosis-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "tokenslides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/pku-lemonade/TokenSlides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "web-ppt": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/includewudi/web-ppt",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "codex-xkppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/MURMURE11118586/codex-xkppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "high-quality-slides": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/andyqiu847-ai/high-quality-slides",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "powerpoint-skill-shimonimposed141": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/Shimonimposed141/powerpoint-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "slideweaver": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/RFYoung/slideweaver",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "competition-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/2750527986liu-maker/competition-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "hfut-presentation-studio": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/linmohan00-rgb/hfut-presentation-studio",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "sjtu-beamer-ppt": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/YarthsA/sjtu-beamer-ppt",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-report-generator": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/hpuhsp/html-report-generator",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "demo-prep-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/MohamedBIqbal/demo-prep-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "avatar-ppt-master": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/sadfrog71/avatar-ppt-master",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "html-ppt-video-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/juguang/html-ppt-video-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ppt-template-fill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/xiongwenhao112/ppt-template-fill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "ai-ppt-skill": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/skychentian/ai-ppt-skill",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  },
+  "slidesage": {
+   "samples": [
+    {
+     "url": "https://opengraph.githubassets.com/1/vedraut/slidesage",
+     "label": "GitHub 仓库卡片（README 未提供样图）"
+    }
+   ]
+  }
+ },
+ "generated": "2026-09-23 22:07"
+}
