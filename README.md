@@ -62,7 +62,7 @@ python -m http.server 8642 --directory F:\OpenCode\ppt-skills-web
    `raw.githubusercontent.com` → `cdn.jsdelivr.net` → `gh-proxy.com` → `ghfast.top`（各带超时）。
 2. 成功：在浏览器内按与 `build_data.py` **完全相同**的合并与评分逻辑重算
    （star / 活跃 / 许可 / 核读 / 能力五项），刷新列表、计数与徽章
-   「已同步 GitHub 最新数据 · 刷新于 …」，页脚记录同步时间。
+   「已同步 GitHub 最新数据」，页脚记录同步时间。
    已有 URL 复用本地缓存图，新出现的样图 URL 直连远程加载。
 3. 失败（网络不通 / GitHub 镜像不可达）：**静默回退内嵌数据**，页面照常可用；
    徽章变为「离线 · 使用内嵌数据（点击重试）」，点徽章可手动重试。

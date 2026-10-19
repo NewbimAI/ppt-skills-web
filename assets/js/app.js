@@ -119,7 +119,7 @@ function counts() {
 }
 function renderHero() {
   const c = counts();
-  setBadge(BADGE_STATE, c.refreshed);
+  setBadge(BADGE_STATE);
   $("#heroTotal").textContent = c.total;
   $("#heroLede").textContent =
     "收录 " + c.total + " 个 AI 幻灯片 skill，其中 " + c.hand +
@@ -413,16 +413,15 @@ function buildPrompt(s, style, label) {
       (label ? "，版式参考《" + label + "》" : "") + "。每页字少一点；先给我 3 个预览我来指，指完再展开。"
   ].join("\n");
 }
-function setBadge(state, refreshed) {
+function setBadge(state) {
   BADGE_STATE = state;
   const dot = $("#badgeDot"), txt = $("#badgeText");
   if (!dot || !txt) return;
-  const rf = refreshed || (REG.meta.counts || {}).refreshed || "—";
   dot.className = "dot" + (state === "fail" ? " off" : state === "syncing" ? " busy" : "");
-  txt.innerHTML = state === "syncing" ? "正在同步 GitHub 最新数据…"
-    : state === "ok" ? '已同步 GitHub 最新数据 · 刷新于 <b>' + esc(rf) + "</b>"
-    : state === "fail" ? '离线 · 使用内嵌数据（点击重试）<b> · ' + esc(rf) + "</b>"
-    : '数据源 many-ppt-skills 登记册 · 刷新于 <b id="badgeRefresh">' + esc(rf) + "</b>";
+  txt.textContent = state === "syncing" ? "正在同步 GitHub 最新数据…"
+    : state === "ok" ? "已同步 GitHub 最新数据"
+    : state === "fail" ? "离线 · 使用内嵌数据（点击重试）"
+    : "数据源 many-ppt-skills 登记册";
 }
 
 /* ═══════════════ 详情抽屉 ═══════════════ */
@@ -991,7 +990,7 @@ async function liveSync(manual) {
     try { stats = await jget(SYNC_ROOTS[i], "data/stats.json", 6000); root = SYNC_ROOTS[i]; } catch (e) {}
   }
   if (!root) {
-    LIVE.running = false; setBadge("fail", REG.meta.counts.refreshed);
+    LIVE.running = false; setBadge("fail");
     if (manual) toast("网络无法访问 GitHub，继续使用内嵌数据", false);
     return;
   }
@@ -1003,11 +1002,11 @@ async function liveSync(manual) {
     ]);
     remerge(sd, stats, capDoc, sm);
     LIVE.running = false;
-    setBadge("ok", REG.meta.counts.refreshed);
+    setBadge("ok");
     renderHero(); renderChips(); renderGrid(); renderGallery(); renderFeatured();
     if (manual) toast("已同步 GitHub 最新数据");
   } catch (e) {
-    LIVE.running = false; setBadge("fail", REG.meta.counts.refreshed);
+    LIVE.running = false; setBadge("fail");
     if (manual) toast("同步失败，继续使用内嵌数据", false);
   }
 }
